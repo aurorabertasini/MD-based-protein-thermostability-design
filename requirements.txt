@@ -1,0 +1,13 @@
+biopython
+matplotlib
+mdtraj
+mdanalysis
+numpy
+openmm
+pandas
+jupyter
+nglview
+ipywidgets  # needed for nglview in Jupyter
+
+# Modeller (NOT pip): install via conda
+# conda create -n modeller_env python=3.10 modeller

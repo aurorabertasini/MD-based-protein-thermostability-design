@@ -1,0 +1,28 @@
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Python caches / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter local runtime files
+.jupyter/
+
+# Generated project data (created automatically by the notebook)
+data/**
+!data/.gitkeep
+
+# Do not publish local reference PDFs
+references/*.pdf
